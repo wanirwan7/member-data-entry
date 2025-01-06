@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #3259f4;
+    font-size: 2.5em; /* Ukuran font yang fleksibel */
+    margin: 20px 0; /* Margin atas dan bawah */
+    padding: 10px; /* Padding untuk memberikan ruang di sekitar teks */
+    word-wrap: break-word; /* Memastikan teks tidak melampaui lebar kontainer */
+}
+
+/* Media query untuk tampilan yang lebih kecil */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Ukuran font yang lebih kecil untuk tampilan kecil */
+        margin: 15px 0; /* Margin yang lebih kecil untuk tampilan kecil */
+    }
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%; /* Tombol akan mengikuti lebar kontainer */
+    background-color: #3259f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px; /* Menambahkan border-radius untuk tampilan yang lebih halus */
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center; /* Pastikan teks berada di tengah */
+}
+
+button:hover {
+    background-color: #2748c9; /* Menambahkan efek hover */
+}
+
+.guestbook-entry {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.guestbook-entry strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.guestbook-entry p {
+    margin: 5px 0;
+    color: #666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table thead tr {
+    background-color: #3259f4;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #3259f4;
+}
+
+table tbody tr.active-row {
+    font-weight: bold;
+    color: #3259f4;
+}
+
+/* Tambahkan gaya untuk elemen select dan option */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+select:focus {
+    border-color: #3259f4;
+    outline: none;
+}
+
+option {
+    padding: 10px;
+    font-size: 16px;
+}

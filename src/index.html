@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Anggota Instansi</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Form Data Anggota Instansi</h1>
+    <form id="member-form" enctype="multipart/form-data">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+        <br><br>
+        <label for="tempat_lahir">Tempat Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+        <br><br>
+        <label for="email">Email:</label> <!-- Changed label from "Gmail" to "Email" -->
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="contact">Kontak:</label>
+        <input type="text" id="contact" name="contact" required>
+        <br><br>
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" required></textarea>
+        <br><br>
+        <label for="ktp">Foto KTP:</label>
+        <input type="file" id="ktp" name="ktp" required>
+        <br><br>
+        <label for="institution">Instansi:</label>
+        <select id="institution" name="institution" required>
+            <option value="">Pilih Instansi</option>
+        </select>
+        <br><br>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
